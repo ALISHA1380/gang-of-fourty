@@ -1,4 +1,4 @@
-# 🧺 بازارچه — Bazaarche
+# 🧺 دار و دسته چهل‌نفره — Gang of Forty
 
 A Persian online grocery built by 40 bootcamp learners over 6 weeks.
 Each learner owns **one supermarket** under `shops/<slug>/` and grows it every week,
@@ -17,11 +17,11 @@ from a hello-world page in Week 1 to a shop that can sell its groceries by Week 
 
 ## Week 1: claim your shop / هفته اول: غرفه‌ات را بگیر
 
-Pick a free character from the table below (the landing page shows which ones are taken), then:
+Pick a free shop from the table below (the landing page shows which ones are taken), then:
 
 ```bash
 git clone <this-repo-url>
-cd bazaarche
+cd gang-of-forty
 git checkout -b feat/<slug>-w1
 ```
 
@@ -67,45 +67,45 @@ git checkout -b feat/<slug>-w<week>
 
 ## The 40 shops / ۴۰ سوپرمارکت
 
-| # | | Character | slug |
+| # | | Name | slug |
 |---|---|---|---|
-| 1 | 🟥 | کلاه‌قرمزی | `kolah-ghermezi` |
-| 2 | 🎒 | پسرخاله | `pesar-khale` |
-| 3 | 🐞 | خاله سوسکه | `khale-sooskeh` |
-| 4 | 🐁 | آقا موشه | `agha-mooshe` |
-| 5 | 🐐 | شنگول | `shangool` |
-| 6 | 🐏 | منگول | `mangool` |
-| 7 | 🍇 | حبه‌انگور | `habbe-angoor` |
-| 8 | 👳 | ملانصرالدین | `mulla-nasreddin` |
-| 9 | 🧒 | حسنی | `hasani` |
-| 10 | 🎃 | کدو قلقله‌زن | `kadoo-ghelghele` |
-| 11 | 🐱 | تام | `tom` |
-| 12 | 🧀 | جری | `jerry` |
-| 13 | 🐆 | پلنگ صورتی | `pink-panther` |
-| 14 | 🧸 | مستر بین | `mr-bean` |
-| 15 | 🧅 | شرک | `shrek` |
-| 16 | 👢 | گربه چکمه‌پوش | `puss-in-boots` |
-| 17 | ⚡ | پیکاچو | `pikachu` |
-| 18 | 🍄 | ماریو | `mario` |
-| 19 | 🔧 | لوئیجی | `luigi` |
-| 20 | 🦔 | سونیک | `sonic` |
-| 21 | 🍝 | گارفیلد | `garfield` |
-| 22 | 🐶 | اسنوپی | `snoopy` |
-| 23 | 🐕 | اسکوبی‌دو | `scooby-doo` |
-| 24 | 🧽 | باب اسفنجی | `spongebob` |
-| 25 | ⭐ | پاتریک | `patrick-star` |
-| 26 | ⛄ | اولاف | `olaf` |
-| 27 | 🍌 | مینیون | `minion` |
-| 28 | 🤥 | پینوکیو | `pinocchio` |
-| 29 | 🥬 | ملوان زبل | `popeye` |
-| 30 | 🥕 | باگز بانی | `bugs-bunny` |
-| 31 | 🐤 | توییتی | `tweety` |
-| 32 | 🍯 | خرس پو | `winnie-the-pooh` |
-| 33 | 🎩 | میکی ماوس | `mickey-mouse` |
-| 34 | 🦆 | دونالد داک | `donald-duck` |
-| 35 | 🦴 | گوفی | `goofy` |
-| 36 | 🍩 | هومر سیمپسون | `homer-simpson` |
-| 37 | 🐧 | پینگو | `pingu` |
-| 38 | 🐼 | پاندای کونگ‌فوکار | `kung-fu-panda` |
-| 39 | 🐠 | نمو | `nemo` |
-| 40 | 🐟 | دوری | `dory` |
+| 1 | 🔁 | DRY | `dry` |
+| 2 | 🪶 | KISS | `kiss` |
+| 3 | ✂️ | YAGNI | `yagni` |
+| 4 | 🧩 | ترکیب به جای وراثت | `composition` |
+| 5 | ✅ | TDD | `tdd` |
+| 6 | 🧼 | کد تمیز | `clean-code` |
+| 7 | 🛠️ | ریفکتور | `refactor` |
+| 8 | 👃 | بوی کد | `code-smell` |
+| 9 | ⛺ | قانون پیشاهنگ | `boy-scout` |
+| 10 | 📨 | قانون دیمیتر | `demeter` |
+| 11 | 🔄 | لیسکوف | `liskov` |
+| 12 | 🚪 | باز-بسته | `open-closed` |
+| 13 | 💥 | شکست سریع | `fail-fast` |
+| 14 | 🦆 | اردک پلاستیکی | `rubber-duck` |
+| 15 | 🪟 | پنجره شکسته | `broken-windows` |
+| 16 | 🎯 | گلوله رسام | `tracer-bullet` |
+| 17 | 📐 | تعامد | `orthogonality` |
+| 18 | ⏱️ | بیگ‌او | `big-o` |
+| 19 | 🏢 | قانون کانوی | `conway` |
+| 20 | 📅 | قانون بروکس | `brooks` |
+| 21 | 🗂️ | جداسازی دغدغه‌ها | `separation` |
+| 22 | 😮 | کمترین شگفتی | `least-surprise` |
+| 23 | 🏎️ | بهینه‌سازی زودرس | `premature-optimization` |
+| 24 | 🛤️ | قرارداد به جای پیکربندی | `convention` |
+| 25 | 🏷️ | نسخه‌بندی معنایی | `semver` |
+| 26 | 🔺 | قضیه CAP | `cap` |
+| 27 | 🔂 | خودتوانی | `idempotency` |
+| 28 | 🗄️ | کش | `cache` |
+| 29 | ⚖️ | متعادل‌کننده بار | `load-balancer` |
+| 30 | 🚦 | محدودیت نرخ | `rate-limit` |
+| 31 | 🧊 | ماژول عمیق | `deep-module` |
+| 32 | 🙈 | پنهان‌سازی اطلاعات | `info-hiding` |
+| 33 | 🗺️ | برنامه‌نویسی راهبردی | `strategic` |
+| 34 | 🧯 | حذف خطا از ریشه | `define-errors-out` |
+| 35 | 🏁 | شرایط رقابتی | `race-condition` |
+| 36 | 🔒 | بن‌بست | `deadlock` |
+| 37 | 📬 | کارگزار پیام | `message-broker` |
+| 38 | 🔌 | قطع‌کننده مدار | `circuit-breaker` |
+| 39 | 🧪 | ACID | `acid` |
+| 40 | 🍕 | شاردینگ | `sharding` |
